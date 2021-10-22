@@ -13,7 +13,7 @@ online like on virtual private server, you are advised not to use it as
 there'll be some unforeseen security issues and problems.**
 
 # Version 0.0.3
-1. Fixes some issues that causes by padding in SM4
+1. Fixes some issues that causes by absence of padding in SM4
 2. Add XOR helper class
 3. Add PKCS5 padding (https://www.di-mgt.com.au/cryptopad.html)
 4. Add ECB mode
