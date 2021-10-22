@@ -20,5 +20,4 @@ there'll be some unforeseen security issues and problems.**
 5. Switch the HMAC calculation from SM4 to SM3
 
 **Note specifically for version 0.0.3:\
-Same note as 0.0.2 but the XOR helper class and\
-the CTR mode can now be considered as memory safe.**
+Same note as 0.0.2 but the XOR helper class and the CTR mode can now be considered as memory safe.**
