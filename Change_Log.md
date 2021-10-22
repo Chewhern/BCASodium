@@ -11,3 +11,14 @@ My implementation may be unsafe, if you just code it on client
 application should be fine. If you want to use it on something which's
 online like on virtual private server, you are advised not to use it as
 there'll be some unforeseen security issues and problems.**
+
+# Version 0.0.3
+1. Fixes some issues that causes by padding in SM4
+2. Add XOR helper class
+3. Add PKCS5 padding
+4. Add ECB mode
+5. Switch the HMAC calculation from SM4 to SM3
+
+**Note specifically for version 0.0.3:\
+Same note as 0.0.2 but the XOR helper class and\
+the CTR mode can now be considered as memory safe.**
