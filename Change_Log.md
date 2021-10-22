@@ -15,7 +15,7 @@ there'll be some unforeseen security issues and problems.**
 # Version 0.0.3
 1. Fixes some issues that causes by padding in SM4
 2. Add XOR helper class
-3. Add PKCS5 padding
+3. Add PKCS5 padding (https://www.di-mgt.com.au/cryptopad.html)
 4. Add ECB mode
 5. Switch the HMAC calculation from SM4 to SM3
 
