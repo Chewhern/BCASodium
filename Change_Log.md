@@ -21,3 +21,14 @@ there'll be some unforeseen security issues and problems.**
 
 **Note specifically for version 0.0.3:\
 Same note as 0.0.2 but the XOR helper class and the CTR mode can now be considered as memory safe.**
+
+# Version 0.0.4
+1. Migrate PKCS5Padding function from CNSM4 to a helper class of its own
+2. Add GCM Mode for SM4
+3. Add GCM Counter Mode for SM4
+4. Add GCM GMAC function for SM4
+5. Remove unnecessary code
+6. Add SHAKEDigest and Keccak Digest
+7. Add KDF function for shrinking the shared secret calculated from X448 CalculateSharedSecret Function to 32 bytes or 256 bits
+8. Add function to calculate Signature+Message
+9. Add function to get Message from SignatureMessage if signature verification succeed
