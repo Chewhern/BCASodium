@@ -36,3 +36,11 @@ Same note as 0.0.2 but the XOR helper class and the CTR mode can now be consider
 
 **Note specifically for version 0.0.4:\
 Same note as 0.0.3.**
+
+# Version 0.0.5
+1. Add Nonce and Key Generation function into CNSM4
+2. Convert **GCM_CTR_Encrypt,GCM_CTR_Decrypt,GCM_GenerateGMAC** from public into private
+3. **sodium_memcmp** was used to replace the **System.Linq.SequenceEqual()** so that it's always **constant time compare**.
+
+**Note specifically for version 0.0.5:\
+Same note as 0.0.4.**
