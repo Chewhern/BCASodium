@@ -1,3 +1,6 @@
+**Note for all versions\
+Please refer to the note on version 0.0.2**
+
 # Version 0.0.1
 1. Add ED448
 2. Add X448
@@ -19,9 +22,6 @@ there'll be some unforeseen security issues and problems.**
 4. Add ECB mode
 5. Switch the HMAC calculation from SM4 to SM3
 
-**Note specifically for version 0.0.3:\
-Same note as 0.0.2 but the XOR helper class and the CTR mode can now be considered as memory safe.**
-
 # Version 0.0.4
 1. Migrate PKCS5Padding function from CNSM4 to a helper class of its own
 2. Slight modification to PKCS5Padding
@@ -34,13 +34,11 @@ Same note as 0.0.2 but the XOR helper class and the CTR mode can now be consider
 9. Add function to calculate Signature+Message
 10. Add function to get Message from SignatureMessage if signature verification succeed
 
-**Note specifically for version 0.0.4:\
-Same note as 0.0.3.**
-
 # Version 0.0.5
 1. Add Nonce and Key Generation function into CNSM4
 2. Convert **GCM_CTR_Encrypt,GCM_CTR_Decrypt,GCM_GenerateGMAC** from public into private
 3. **sodium_memcmp** was used to replace the **System.Linq.SequenceEqual()** so that it's always **constant time compare**.
 
-**Note specifically for version 0.0.5:\
-Same note as 0.0.4.**
+# Version 0.0.6
+1. Uses libsodium PRF to create additional padding in signing and verifying messages (SecureED448).
+2. Slight rework on ED448RevampedKeyPair and X448RevampedKeyPair.
