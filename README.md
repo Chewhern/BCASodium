@@ -4,7 +4,7 @@ This is an add on to ASodium, libsodium by default does not have X448 and ED448.
 By combining Bouncy Castle and libsodium cryptography library, developers have
 now easier access to X448 and ED448.
 
-**Try to avoid using ED448's signing and verifying if your message length is less than 114 bytes. I will try to find some time to fix the bug.**
+**For legacy message padding, kindly refer to BCASodium version 0.0.5.**
 
 This is a new add-on, do expect bugs.
 
