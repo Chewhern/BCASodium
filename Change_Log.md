@@ -42,3 +42,13 @@ there'll be some unforeseen security issues and problems.**
 # Version 0.0.6
 1. Uses libsodium PRF to create additional padding in signing and verifying messages (SecureED448).
 2. Slight rework on ED448RevampedKeyPair and X448RevampedKeyPair.
+
+# Version 0.0.7
+1. Remove libsodium PRF from BCASodium.
+2. All paddings were centralized and moved into PaddingClass.
+3. Uses bouncycastle's 6 padding schemes to create additional padding in signing and verifying messages (SecureED448).
+4. CNSM3Digest,Keccak,SHAKE uses **private static** when dealing with streams of messages.
+5. CNSM4 removes all insecure modes of operations.
+6. CNSM4 now uses Blake2B and 2 secret keys to create **domain separation** in CTR mode.
+7. CNSM3Digest,Keccak,SHAKE now uses public/private context to derive 2 subkeys to xor with IPAD and OPAD in calculating HMAC.
+8. Slight rework on XORHelper.
