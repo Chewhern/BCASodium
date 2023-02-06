@@ -52,3 +52,4 @@ there'll be some unforeseen security issues and problems.**
 6. CNSM4 now uses Blake2B and 2 secret keys to create **domain separation** in CTR mode.
 7. CNSM3Digest,Keccak,SHAKE now uses public/private context to derive 2 subkeys to xor with IPAD and OPAD in calculating HMAC.
 8. Slight rework on XORHelper.
+9. BCASodium now uses only **.Net Standard 2.0**.
