@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+	<Authors>Chew Lik Hern</Authors>
+    <Version>0.0.7.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>BCASodium</AssemblyName>
+    <PackageId>BCASodium</PackageId>
+    <PackageTags>BouncyCastle,libsodium</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Chewhern/BCASodium</RepositoryUrl>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputType>Library</OutputType>
+    <PackageProjectUrl>https://github.com/Chewhern/BCASodium</PackageProjectUrl>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Add X448 and ED448 to ASodium as an Add-on</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ASodium" Version="0.5.4" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+	<PackageReference Include="libsodium" Version="1.0.18.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  
+</Project>
