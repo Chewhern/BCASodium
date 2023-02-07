@@ -43,7 +43,7 @@ there'll be some unforeseen security issues and problems.**
 1. Uses libsodium PRF to create additional padding in signing and verifying messages (SecureED448).
 2. Slight rework on ED448RevampedKeyPair and X448RevampedKeyPair.
 
-# Version 0.0.7
+# Version 0.0.7 (Unlisted)
 1. Remove libsodium PRF from BCASodium.
 2. All paddings were centralized and moved into PaddingClass.
 3. Uses bouncycastle's 6 padding schemes to create additional padding in signing and verifying messages (SecureED448).
@@ -53,3 +53,8 @@ there'll be some unforeseen security issues and problems.**
 7. CNSM3Digest,Keccak,SHAKE now uses public/private context to derive 2 subkeys to xor with IPAD and OPAD in calculating HMAC.
 8. Slight rework on XORHelper.
 9. BCASodium now uses only **.Net Standard 2.0**.
+
+# Version 0.0.8
+1. Rename **PaddingClass** into **BlockCipherPaddingClass**.
+2. Add **PKCS1V1.5PaddingClass**.
+3. **SecureED448** now uses **ZeroPadding** or **PKCS1V1.5PaddingClass**.
