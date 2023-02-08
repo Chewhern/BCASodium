@@ -54,7 +54,11 @@ there'll be some unforeseen security issues and problems.**
 8. Slight rework on XORHelper.
 9. BCASodium now uses only **.Net Standard 2.0**.
 
-# Version 0.0.8
+# Version 0.0.8 (Unlisted)
 1. Rename **PaddingClass** into **BlockCipherPaddingClass**.
 2. Add **PKCS1V1.5PaddingClass**.
 3. **SecureED448** now uses **ZeroPadding** or **PKCS1V1.5PaddingClass**.
+
+# Version 0.0.9
+1. **SecureED448** now uses bouncycastle's prehash signing and verification.
+2. Removed **PKCS1V1.5PaddingClass**.
