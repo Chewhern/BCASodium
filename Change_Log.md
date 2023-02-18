@@ -66,6 +66,7 @@ there'll be some unforeseen security issues and problems.**
 # Version 0.1.0
 1. Fixes some bug in CTR mode.
 2. Added a slightly constant time XOR method in **XORHelper** class.
+3. CNSM4's CTR mode is now slightly constant time in performance. 
 
 **From 0.1.0 version onwards, there won't be any more unlisting.**
 
