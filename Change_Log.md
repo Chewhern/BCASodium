@@ -59,6 +59,14 @@ there'll be some unforeseen security issues and problems.**
 2. Add **PKCS1V1.5PaddingClass**.
 3. **SecureED448** now uses **ZeroPadding** or **PKCS1V1.5PaddingClass**.
 
-# Version 0.0.9
+# Version 0.0.9 (Unlisted)
 1. **SecureED448** now uses bouncycastle's prehash signing and verification.
 2. Removed **PKCS1V1.5PaddingClass**.
+
+# Version 0.1.0
+1. Fixes some bug in CTR mode.
+2. Added a slightly constant time XOR method in **XORHelper** class.
+
+**From 0.1.0 version onwards, there won't be any more unlisting.**
+
+**Replacement of XOR operations in HMAC generation will be replaced with slightly constant time method in future updates.**
