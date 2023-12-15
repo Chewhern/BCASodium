@@ -71,3 +71,8 @@ there'll be some unforeseen security issues and problems.**
 **From 0.1.0 version onwards, there won't be any more unlisting.**
 
 **Replacement of XOR operations in HMAC generation will be replaced with slightly constant time method in future updates.**
+
+# Version 0.1.1
+1. Added  **KMAC**
+2. Removed **HMAC** from **Keccak** and **SHAKE**.
+3. Slightly rework on **ComputeHashForNonFinalizedData** for SM3Digest,Keccak and SHAKE.
