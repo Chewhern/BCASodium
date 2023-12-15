@@ -76,3 +76,4 @@ there'll be some unforeseen security issues and problems.**
 1. Added  **KMAC**
 2. Removed **HMAC** from **Keccak** and **SHAKE**.
 3. Slightly rework on **ComputeHashForNonFinalizedData** for SM3Digest,Keccak and SHAKE.
+4. ED448RevampedKeyPair and X448RevampedKeyPair **Clear()** function has been slightly reworked. 
