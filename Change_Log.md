@@ -87,3 +87,6 @@ there'll be some unforeseen security issues and problems.**
 1. Switched to **.Net 6.0** and extends support for **.Net Standard 2.0**
 2. Now uses the official nuget **bouncycastle.cryptography** instead of **Portable.BouncyCastle**.
 3. Change the **KMACHelper** from the latter library to first library compatible. 
+
+# Version 0.1.4
+1. **KMACHelper** fixes some bug
