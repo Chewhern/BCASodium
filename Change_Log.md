@@ -90,3 +90,6 @@ there'll be some unforeseen security issues and problems.**
 
 # Version 0.1.4
 1. **KMACHelper** fixes some bug
+
+# Version 0.1.5
+1. Upgrades to use latest ASodium (0.5.9)
