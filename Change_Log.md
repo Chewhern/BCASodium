@@ -99,4 +99,4 @@ there'll be some unforeseen security issues and problems.**
 2. HMACHelper and KMACHelper both uses latest version of ASodium's Sodium_Memory_Compare.
 
 # Version 0.1.7
-1. Fixes bug in SHAKEDigest **ComputeHash** function.
+1. Fixes bug in SHAKEDigest **ComputeHash** function. (For details, kindly read my comments in the code)
