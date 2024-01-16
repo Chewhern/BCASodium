@@ -7,6 +7,12 @@ namespace BCASodium
     {
         private static ShakeDigest GlobalDigest = new ShakeDigest(256);
 
+        //Actually, it's true that SHAKE accepts only 128 bits and 256 bits if you were to
+        //declare a size for the SHAKE algorithm(BouncyCastle).
+        //However, the actual output of the SHAKE algorithm is the declared size * 2.
+        //If developer declared the size of the SHAKE is 128 bits, then the output size of
+        //the hashed message will be 256 bits.
+        //Similar situations can be said to 256 bits. 
         public enum Digest_Length
         {
             Digest_128bits,
