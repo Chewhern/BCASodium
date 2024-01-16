@@ -97,3 +97,6 @@ there'll be some unforeseen security issues and problems.**
 # Version 0.1.6
 1. Upgrades to use latest ASodium (0.6.0)
 2. HMACHelper and KMACHelper both uses latest version of ASodium's Sodium_Memory_Compare.
+
+# Version 0.1.7
+1. Fixes bug in SHAKEDigest **ComputeHash** function.
