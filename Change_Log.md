@@ -100,3 +100,6 @@ there'll be some unforeseen security issues and problems.**
 
 # Version 0.1.7
 1. Fixes bug in SHAKEDigest **ComputeHash** function. (For details, kindly read my comments in the code)
+
+# Version 0.1.8
+1. Fixes minor bug in KMACHelper function. (For details, kindly read refer to **VerifyKMAC**)
