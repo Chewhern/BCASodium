@@ -104,5 +104,6 @@ there'll be some unforeseen security issues and problems.**
 # Version 0.1.8
 1. Fixes minor bug in KMACHelper function. (For details, kindly read refer to **VerifyKMAC**)
 
-# Version 0.1.9
+# Version 0.1.9 (Hidden)
 1. Added an experimental alternate diffie hellman key exchange that uses floating point and should be quantum resistant
+(Community said that this is not ideal for quantum computer nor even now, it reveals too much information)
