@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <Authors>Chew Lik Hern</Authors>
+    <Version>0.1.9.0</Version>
+    <AssemblyName>BCASodium</AssemblyName>
+    <PackageId>BCASodium</PackageId>
+    <PackageTags>BouncyCastle,libsodium</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Chewhern/BCASodium</RepositoryUrl>
+    <OutputType>Library</OutputType>
+    <PackageProjectUrl>https://github.com/Chewhern/BCASodium</PackageProjectUrl>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <Description>Add X448 and ED448 to ASodium as an Add-on</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ASodium" Version="0.6.1" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.3.1" />
+    <PackageReference Include="ExtendedNumerics.BigDecimal" Version="2025.1001.2.129" />
+    <PackageReference Include="libsodium" Version="1.0.19.2" />
+  </ItemGroup>
+
+</Project>
