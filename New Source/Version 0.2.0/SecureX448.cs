@@ -99,6 +99,7 @@ namespace BCASodium
             int result = SodiumHelper.Sodium_Is_Zero(SharedSecret);
             if (result != 0) 
             {
+                //should be "Error: The computed shared secret is 0. Kindly check back or regenerate the sender or recipient's public key so that the shared secret is not 0"
                 throw new CryptographicException("Error: The computed shared secret is 0. Kindly check back or regenerate the sender or recipient's public key so that the shared secret is 0");
             }
             if (ClearPrivateKey == true)
@@ -109,3 +110,4 @@ namespace BCASodium
         }
     }
 }
+
