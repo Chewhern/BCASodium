@@ -108,5 +108,5 @@ there'll be some unforeseen security issues and problems.**
 1. Added an experimental alternate diffie hellman key exchange that uses floating point and should be quantum resistant
 (Community said that this is not ideal for quantum computer nor even now, it reveals too much information)
 
-# Versuib 0.2.0
+# Version 0.2.0
 1. Added a basic checker on X448 to try and reduce the likelihood or at the least warn developers about potential sharedsecret that's having all 0s. 
