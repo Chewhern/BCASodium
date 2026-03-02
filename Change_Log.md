@@ -110,3 +110,9 @@ there'll be some unforeseen security issues and problems.**
 
 # Version 0.2.0
 1. Added a basic checker on X448 to try and reduce the likelihood or at the least warn developers about potential sharedsecret that's having all 0s. 
+
+# Version 0.2.1
+1. Added exception to X448 if the resulted public key is 0.
+2. Added **ComputeHashForED448** for **SHAKEDigest**
+3. Changed the prehash algorithm from Blake2B of libsodium into shake256 from bouncycastle.
+4. Slightly rework on the exception/warning message from previous version.
