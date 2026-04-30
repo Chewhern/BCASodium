@@ -116,3 +116,6 @@ there'll be some unforeseen security issues and problems.**
 2. Added **ComputeHashForED448** for **SHAKEDigest**
 3. Changed the prehash algorithm from Blake2B of libsodium into shake256 from bouncycastle.
 4. Slightly rework on the exception/warning message from previous version.
+
+# Version 0.2.2
+1. Slightly reworked on **X448RevampedKeyPair** and **ED448RevampedKeyPair**.
